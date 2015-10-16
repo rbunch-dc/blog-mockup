@@ -1,0 +1,64 @@
+body{
+	background-color: #cacaca;
+}
+
+#blog-wrapper{
+	max-width: 900px;
+	margin: auto;
+	background-color: white;
+	overflow: hidden;
+}
+
+#header{
+	border: 1px solid black;
+	overflow: hidden;
+}
+
+#header .header-text{
+	font-size: 30px;
+	float: left;
+}
+
+#header .header-text h1{
+	margin: 0px;
+}
+
+#header .search-bar{
+	float: right;
+}
+
+#main-container{
+	width: 75%;
+	float: left;
+}
+
+.blog-item .blog-item-header{
+	border-bottom: solid 1px #cacaca;
+}
+
+#right-rail{
+	width: 25%;
+	float: left;
+}
+
+#right-rail .right-rail-item{
+	background-color: #cacaca;
+	border: 1px solid #eee;
+}
+
+.blog-header-image img{
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
