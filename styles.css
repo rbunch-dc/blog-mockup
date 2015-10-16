@@ -7,47 +7,87 @@ body{
 	margin: auto;
 	background-color: white;
 	overflow: hidden;
+	margin:	15px;
 }
 
 #header{
-	border: 1px solid black;
 	overflow: hidden;
+	margin-top: 15px;
 }
 
 #header .header-text{
-	font-size: 30px;
 	float: left;
+	margin-left: 20px;
 }
 
 #header .header-text h1{
 	margin: 0px;
+	font-size: 30px;
+	color: skyblue;
 }
 
 #header .search-bar{
 	float: right;
+	margin-right: 15px;
+}
+
+#header .search-bar input{
+	border-radius: 10px;
+
 }
 
 #main-container{
-	width: 75%;
+	width: 71%;
 	float: left;
+	margin: 20px 2%;
 }
 
 .blog-item .blog-item-header{
 	border-bottom: solid 1px #cacaca;
+	margin-bottom: 20px;
+}
+
+.blog-item-header h3{
+	color: skyblue;
+	margin: 15px 0 5px;
+}
+
+.blog-author{
+	padding-bottom: 10px;
+	font-size: 12px;
+}
+
+.blog-item .blog-body{
+	font-size: 14px;
 }
 
 #right-rail{
-	width: 25%;
+	width: 23%;
 	float: left;
+	margin: 10px 1%;
 }
 
 #right-rail .right-rail-item{
 	background-color: #cacaca;
 	border: 1px solid #eee;
+	margin: 10px 0;
+}
+
+#right-rail .right-rail-item li:first-child{
+	list-style: none;
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-left: -15px;
+}
+
+#right-rail .right-rail-item li{
+
+
 }
 
 .blog-header-image img{
 	width: 100%;
+	max-height: 150px;
 }
 
 
